@@ -1,0 +1,640 @@
+/*------------CONTAINER----------*/
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 1216px;
+  height: 640px;
+  left: 112px;
+  top: 152px;
+  z-index: 5;
+  overflow: hidden;
+}
+.phone {
+  position: absolute;
+  width: 320px;
+  height: 640px;
+  left: 728px;
+  top: 0px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
+  background-image: url(../../image/hero03/container/phoneMockup/iPhoneX.png);
+  background-repeat: no-repeat;
+  box-shadow: 0px 15px 40px -12px rgba(17, 24, 39, 0.25);
+  border-radius: 50px;
+}
+.screen {
+  position: absolute;
+  width: 279.07px;
+  height: 604.28px;
+  top: 18px;
+  left: 18px;
+  background-image: url(../../image/hero03/container/phoneMockup/screen.png);
+  z-index: -1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0x 48px 0px 0px;
+  position: static;
+  width: 696px;
+  height: 400px;
+  left: 0px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 32px;
+}
+.CTAs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 333px;
+  height: 56px;
+  left: 0px;
+  top: 344px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
+.button1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 138px;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+  background: #7c3aed;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 16px;
+  cursor: pointer;
+}
+.buttonBase1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  position: static;
+  width: 138px;
+  left: calc(50% - 138px / 2);
+  top: 0%;
+  bottom: 0%;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.button1Text {
+  position: static;
+  width: 90px;
+  height: 24px;
+  left: calc(50% - 90px / 2);
+  top: calc(50% - 24px / 2);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+  cursor: pointer;
+}
+.button2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 179px;
+  height: 56px;
+  left: 154px;
+  top: 0px;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 16px;
+}
+.buttonBase2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  position: static;
+  width: 179px;
+  left: calc(50% - 179px / 2);
+  top: 0%;
+  bottom: 0%;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.essentialIcon {
+  position: static;
+  left: 13.41%;
+  right: 73.18%;
+  top: 28.57%;
+  bottom: 28.57%;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+  cursor: pointer;
+}
+.button2Icon {
+  left: 8.33%;
+  right: 8.33%;
+  top: 8.33%;
+  bottom: 8.33%;
+  border: 2px solid #7c3aed;
+}
+.button2Text {
+  position: static;
+  width: 99px;
+  height: 24px;
+  left: calc(50% - 99px / 2 + 16px);
+  top: calc(50% - 24px / 2);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #7c3aed;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 8px;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 648px;
+  height: 216px;
+  left: 0px;
+  top: 96px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
+.headerLabel2 {
+  position: static;
+  width: 648px;
+  height: 56px;
+  left: 0px;
+  top: 160px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  font-feature-settings: "liga" off;
+  color: #374151;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.headerLabel1 {
+  position: static;
+  width: 648px;
+  height: 144px;
+  left: 0px;
+  top: 0px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+  color: #111827;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+@media only screen and (max-width: 768px) {
+  /*--------------------Container-----------*/
+  .hero03 {
+    position: static;
+    width: 768px;
+    height: 1240px;
+    left: 0px;
+    top: 0px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 40px 80px;
+    position: absolute;
+    width: 768px;
+    height: 1160px;
+    left: 0px;
+    top: 0px;
+  }
+  .phone {
+    position: absolute;
+    height: 640px;
+    left: 300px;
+    top: 440px;
+    margin: 0px 0px;
+  }
+  .screen {
+    position: absolute;
+    width: 279.07px;
+    height: 604.28px;
+    top: 18px;
+    left: 18px;
+    z-index: -1;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 80px 0px;
+    position: static;
+    width: 688px;
+    height: 440px;
+    left: 40px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  .CTAs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 333px;
+    height: 56px;
+    left: 0px;
+    top: 304px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 32px 0px;
+  }
+  .button1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 138px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+    cursor: pointer;
+  }
+  .buttonBase1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 179px;
+    height: 56px;
+    left: 154px;
+    top: 0px;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
+  }
+  .button1Text {
+    position: static;
+    width: 90px;
+    height: 24px;
+    left: calc(50% - 90px / 2);
+    top: calc(50% - 24px / 2);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-feature-settings: "liga" off;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+    cursor: pointer;
+  }
+  .button2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 179px;
+    height: 56px;
+    left: 154px;
+    top: 0px;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
+  }
+  .buttonBase2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    position: static;
+    width: 179px;
+    left: calc(50% - 179px / 2);
+    top: 0%;
+    bottom: 0%;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  .essentialIcon {
+    position: static;
+    left: 13.41%;
+    right: 73.18%;
+    top: 28.57%;
+    bottom: 28.57%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+    cursor: pointer;
+  }
+  .button2Icon {
+    left: 8.33%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.33%;
+    border: 2px solid #7c3aed;
+  }
+  .button2Text {
+    position: static;
+    width: 99px;
+    height: 24px;
+    left: calc(50% - 99px / 2 + 16px);
+    top: calc(50% - 24px / 2);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-feature-settings: "liga" off;
+    color: #7c3aed;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+    cursor: pointer;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 688px;
+    height: 192px;
+    left: 0px;
+    top: 80px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+  }
+  .headerLabel2 {
+    position: static;
+    width: 578px;
+    height: 56px;
+    left: 0px;
+    top: 136px;
+    margin: 16px 0px;
+  }
+
+  .headerLabel1 {
+    position: static;
+    width: 675px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 16px 0px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .hero03 {
+    position: static;
+    width: 375px;
+    height: 1240px;
+    left: 0px;
+    top: 0px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px 80px;
+
+    position: absolute;
+    width: 375px;
+    height: 1146px;
+    left: 0px;
+    top: 80px;
+  }
+  .phone {
+    position: absolute;
+    height: 640px;
+    left: 20px;
+    top: 440px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  .screen {
+    position: absolute;
+    width: 279.07px;
+    height: 604.28px;
+    top: 18px;
+    left: 18px;
+    z-index: -1;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 0px;
+    position: static;
+    width: 335px;
+    height: 386px;
+    left: 20px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: -40px 0px;
+  }
+  .CTAs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 333px;
+    height: 56px;
+    left: 0px;
+    top: 290px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 32px 0px;
+  }
+  .button1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 120px;
+    height: 45px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+    cursor: pointer;
+  }
+  .buttonBase1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 179px;
+    height: 56px;
+    left: 154px;
+    top: 0px;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
+  }
+  .button2 {
+    position: static;
+    width: 120px;
+    height: 56px;
+    left: 100px;
+    top: 0px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 335px;
+    height: 218px;
+    left: 0px;
+    top: 40px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+  }
+  .headerLabel2 {
+    position: static;
+    width: 285px;
+    height: 112px;
+    left: 0px;
+    top: 106px;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 16px 0px;
+  }
+
+  .headerLabel1 {
+    position: static;
+    width: 335px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    font-size: 36px;
+    line-height: 45px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+  }
+  
+}

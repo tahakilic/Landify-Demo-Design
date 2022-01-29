@@ -1,0 +1,142 @@
+.logoClouds01 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: static;
+  width: 1440px;
+  height: 142px;
+  left: 0px;
+  top: 866px;
+  background: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.logoCloudsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 1216px;
+  height: 110px;
+  left: calc(50% - 1216px / 2);
+  top: calc(50% - 110px / 2);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 10px 112px;
+  border-top: 1px solid rgb(197, 197, 197);
+  border-bottom: 1px solid rgb(197, 197, 197);
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0px;
+  position: static;
+  width: 1216px;
+  height: 60px;
+  left: calc(50% - 1216px / 2);
+  top: calc(50% - 60px / 2);
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+.logosCloud {
+  margin-left: 60px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .logoClouds01 {
+    padding: 16px 40px;
+
+    position: static;
+    width: 768px;
+    height: 168px;
+    left: 0px;
+    top: 1240px;
+    margin: 0px 0px;
+  }
+  .logoCloudsContainer {
+    position: static;
+    width: 688px;
+    height: 136px;
+    left: calc(50% - 688px / 2);
+    top: calc(50% - 136px / 2);
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+  .logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 688px;
+    height: 86px;
+    left: calc(50% - 688px / 2);
+    top: calc(50% - 86px / 2);
+    margin: 20px 0px;
+  }
+  .logosRow1 {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .logoClouds01 {
+    padding: 16px 20px;
+    position: static;
+    width: 375px;
+    height: 228px;
+    left: 0px;
+    top: 1240px;
+    margin: 0px 0px;
+  }
+  .logoCloudsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 335px;
+    height: 196px;
+    left: calc(50% - 335px / 2);
+    top: calc(50% - 196px / 2);
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+  .logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 335px;
+    height: 146px;
+    left: calc(50% - 335px / 2);
+    top: calc(50% - 146px / 2);
+    margin: 24px 0px;
+  }
+  .logosCloud{
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+  .logosRow1 {
+    margin-bottom: 0px;
+  }
+}

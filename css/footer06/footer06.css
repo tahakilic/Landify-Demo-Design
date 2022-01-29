@@ -1,0 +1,323 @@
+.footer06 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px 112px;
+  position: static;
+  width: 1216px;
+  height: 288px;
+  left: calc(50% - 1440px / 2);
+  top: calc(50% - 288px / 2 + 1324px);
+  background: #000000;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.leftSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 423px;
+  height: 160px;
+  left: 112px;
+  top: 64px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 45px 0px;
+}
+.downloadBadges {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 176px;
+  height: 140px;
+  left: 1152px;
+  top: 64px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 45px 0px;
+}
+.leftSectionLabel {
+  position: static;
+  width: 270px;
+  height: 20px;
+  left: 0px;
+  top: calc(50% - 20px / 2 + 70px);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "liga" off;
+  color: #d1d5db;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 423px;
+  height: 60px;
+  left: 0px;
+  top: 56px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+.linksRow1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 500px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+.linksRow2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 423px;
+  height: 24px;
+  left: 0px;
+  top: 36px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+.linksRow3{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "liga" off;
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.footerlinks {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "liga" off;
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.footerlinks1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 0px;
+  font-feature-settings: "liga" off;
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 20px;
+  width: 300px;
+}
+.footerRightText {
+  position: static;
+  width: 176px;
+  height: 28px;
+  left: 0px;
+  top: 0px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  font-feature-settings: "liga" off;
+  color: #d1d5db;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+.appStoreBadgeFooter {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.androidStoreBadgeFooter {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer06 {
+    padding: 64px 40px;
+    width: 768px;
+    height: 288px;
+    left: calc(50% - 768px / 2);
+    top: calc(50% - 288px / 2 + 1769px);
+    margin: 0px 0px;
+  }
+  .leftSection {
+    width: 423px;
+    height: 160px;
+    left: 40px;
+    top: 64px;
+    margin: 0px 0px;
+  }
+  .downloadBadges {
+    width: 135px;
+    height: 140px;
+    left: 593px;
+    top: 64px;
+    margin: 0px 52px;
+  }
+  .linksRow1 {
+    width: 500px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    margin: 12px 0px;
+  }
+  .linksRow2 {
+    width: 423px;
+    height: 24px;
+    left: 0px;
+    top: 36px;
+    margin: 12px 0px;
+  }
+  .footerlinks1 {
+    width: 300px;
+    height: 24px;
+    left: 362px;
+    top: calc(50% - 24px / 2);
+    margin: 0px 0px;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  .footerlinks {
+    position: static;
+    width: 61px;
+    height: 24px;
+    left: 362px;
+    top: calc(50% - 24px / 2);
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    margin: 0px 0px;
+    margin-right: 15px;
+  }
+  .footerRightText {
+    width: 135px;
+    height: 28px;
+    left: 0px;
+    top: 0px;
+    margin: 16px 0px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .footer06 {
+    padding: 30px 10px;
+    position: relative;
+    width: 375px;
+    height: 448px;
+    left: calc(50% - 375px / 2);
+    top: calc(50% - 448px / 2 + 2233px);
+    margin: 0px 0px;
+  }
+  .leftSection {
+    position: static;
+    width: 335px;
+    height: 196px;
+    left: 20px;
+    top: 40px;
+    margin: 32px 0px;
+  }
+  .downloadBadges {
+    position: absolute;
+    width: 135px;
+    height: 140px;
+    left: 20px;
+    top: 268px;
+    margin: 32px 0px;
+  }
+  .links {
+    width: 279px;
+    height: 96px;
+    left: 0px;
+    top: 56px;
+    margin: 24px 0px;
+  }
+  .linksRow1 {
+    width: 350px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    margin: 12px 0px;
+  }
+  .linksRow2 {
+    width: 279px;
+    height: 24px;
+    left: 0px;
+    top: 36px;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  .linksRow3 {
+    margin-right: 20px;
+    position: relative;
+    top: 40px;
+  }
+  .footerlinks {
+    position: relative;
+    width: 61px;
+    height: 24px;
+    left: -120px;
+    top: calc(50% - 24px / 2);
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    margin: 0px 0px;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  .footerlinks1 {
+    width: 150px;
+    height: 24px;
+    left: 362px;
+    top: calc(50% - 24px / 2);
+    margin: 0px 0px;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  .footerRightText {
+    position: static;
+    width: 135px;
+    height: 28px;
+    left: 0px;
+    top: 0px;
+    margin: 16px 0px;
+  }
+}

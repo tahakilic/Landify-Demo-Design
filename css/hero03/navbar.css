@@ -1,0 +1,351 @@
+/*----------NAVBAR--------------*/
+.navbar {
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+  }
+  .appBadges {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 282px;
+    height: 40px;
+    right: 112px;
+    top: calc(50% - 40px / 2 + 0px);
+  }
+  .appStoreBadge {
+    position: static;
+    width: 135px;
+    height: 40px;
+    left: 52.13%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 12px;
+    background-image: url(../../image/hero03/navbar/appBadges/appStoreBadge.png);
+    cursor: pointer;
+  }
+  
+  .androidStoreBadge {
+    position: static;
+    width: 135px;
+    height: 40px;
+    left: 0%;
+    right: 52.13%;
+    top: 0%;
+    bottom: 0%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 12px;
+    background-image: url(../../image/hero03/navbar/appBadges/androidStoreBadge.png);
+    cursor: pointer;
+  }
+  
+  .leftNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 442px;
+    height: 32px;
+    left: 112px;
+    top: calc(50% - 32px / 2);
+  }
+  .navGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 282px;
+    height: 28px;
+    right: 0px;
+    top: calc(50% - 28px / 2);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 32px;
+  }
+  .menuItem1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 8px;
+    position: static;
+    width: 48px;
+    height: 28px;
+    left: 234px;
+    top: 0px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 8px;
+    cursor: pointer;
+  }
+  .label1 {
+    position: static;
+    left: 16.67%;
+    right: 16.67%;
+    top: 14.29%;
+    bottom: 14.29%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    font-feature-settings: "liga" off;
+    color: #111827;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 4px;
+    cursor: pointer;
+  }
+  .menuItem2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 8px;
+    position: static;
+    width: 70px;
+    height: 28px;
+    left: 156px;
+    top: 0px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 8px;
+    cursor: pointer;
+  }
+  
+  .label2 {
+    position: static;
+    left: 11.43%;
+    right: 11.43%;
+    top: 14.29%;
+    bottom: 14.29%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    font-feature-settings: "liga" off;
+    color: #111827;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 4px;
+    cursor: pointer;
+  }
+  
+  .menuItem3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 8px;
+    position: static;
+    width: 64px;
+    height: 28px;
+    left: 84px;
+    top: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+    cursor: pointer;
+  }
+  .label3 {
+    position: static;
+    left: 12.5%;
+    right: 12.5%;
+    top: 14.29%;
+    bottom: 14.29%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    font-feature-settings: "liga" off;
+    color: #111827;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 4px;
+    cursor: pointer;
+  }
+  .navItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 8px;
+    position: static;
+    width: 76px;
+    height: 28px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+    cursor: pointer;
+  }
+  
+  .label4 {
+    position: static;
+    left: 10.53%;
+    right: 10.53%;
+    top: 14.29%;
+    bottom: 14.29%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    font-feature-settings: "liga" off;
+    color: #111827;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 4px;
+    cursor: pointer;
+  }
+  .logo {
+    position: static;
+    width: 128px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 32px;
+    background-image: url(../../image/hero03/navbar/leftNav/Logo/logo.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+  }
+  .ucCizgi{
+  
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 20px;
+    top: 25px;
+    display:none;
+     
+  }
+  #kontrol{
+    display: none;
+  }
+  @media only screen and (max-width: 768px) {
+      
+      .navbar{
+        position: absolute;
+        width: 768px;
+        height: 80px;
+        left: 0px;
+        top: 0px;
+      }
+    .leftNav{
+        left: 0px;
+    }
+    .navGroup{
+      position: absolute;
+      display: none;
+      top: 50px;
+      left: 0px;
+      width: 768px;
+      height: 144px;
+      background-image: linear-gradient(to right, rgb(250, 250, 250) , rgb(204, 188, 214));
+      margin: 0px;
+      
+
+    }
+    #kontrol:checked ~ .navGroup{
+      display: block;
+    }
+  .ucCizgi{
+      display: block;
+      cursor: pointer;
+      
+  }
+  .alignNavbar{
+    position: relative;
+    left: 0px;
+    width: 768px;
+    margin: 0px;
+   
+
+  }
+  .alignLabel{
+    width: 768px;
+    text-align: center;
+    height: 28px;
+    margin: 0px;
+  }
+  .alignNavbar:hover{
+    background-color: rgb(136, 54, 190);
+   
+   
+  }
+  .alignLabel:hover{
+    color: white;
+   
+  }
+    
+}
+  
+@media only screen and (max-width: 375px) {
+  .navbar{
+    position: absolute;
+    width: 375px;
+    height: 80px;
+    left: 0px;
+    top: 30px;
+  }
+  .navGroup{
+    top:33px;
+  }
+    .alignNavbar{
+      position: relative;
+      left: 0px;
+      width: 375px;
+      margin: 0px;
+     
+  
+    }
+    .alignLabel{
+      width:375px;
+      text-align: center;
+      height: 28px;
+      margin: 0px;
+    }
+    
+    .appBadges{
+        display: none;
+    }
+    .logo{
+      height: 80px;
+      top: 0px;
+      margin: 0px 15px;
+    }
+    .ucCizgi{
+      display: block;
+      cursor: pointer;
+      top: 0px;
+    }
+    .kontrol{
+      top: 0px;
+      position: absolute;
+    }
+ 
+}

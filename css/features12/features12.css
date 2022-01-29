@@ -1,0 +1,278 @@
+.features12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px;
+  position: static;
+  width: 1436px;
+  height: 940px;
+  left: 2px;
+  top: 1008px;
+  background: #ffffff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 0px;
+  overflow: hidden;
+}
+.features12Container {
+  display: inline-block;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 1212px;
+  height: 368px;
+  left: 112px;
+  top: 284px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.sectionHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  left: 22.14%;
+  right: 22.14%;
+  top: 12.83%;
+  bottom: 70.59%;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 64px 0px;
+}
+
+.sectionHeadingDescription1 {
+  position: static;
+  width: 800px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+  color: #111827;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.sectionHeadingDescription2 {
+  position: static;
+  width: 800px;
+  height: 56px;
+  left: 0px;
+  top: 68px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #111827;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+.featureItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 404px;
+  height: 184px;
+  float: left;
+  margin: 20px 0px;
+}
+.featureItemLogo1 {
+  position: static;
+  width: 32px;
+  height: 32px;
+  left: 176px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+
+.featureItemHeadline {
+  position: static;
+  left: 4.17%;
+  right: 4.17%;
+  top: 0%;
+  bottom: 58.33%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #111827;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+.featureItemDescription {
+  position: static;
+  width: 352px;
+  height: 48px;
+  left: 16px;
+  top: 48px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #374151;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .features12 {
+    padding: 80px 40px;
+    position: static;
+    width: 768px;
+    height: 1000px;
+    left: 0px;
+    top: 1408px;
+    margin: 0px 0px;
+  }
+  .features12Container {
+    position: static;
+    width: 688px;
+    height: 632px;
+    left: 40px;
+    top: 253px;
+    margin: 64px 0px;
+  }
+  .sectionHeading {
+    width: 688px;
+    left: calc(50% - 688px / 2);
+    top: 8.29%;
+    bottom: 80.41%;
+    margin: 0px 0px;
+  }
+
+  .sectionHeadingDescription1 {
+    position: static;
+    width: 688px;
+    height: 45px;
+    left: 0px;
+    top: 0px;
+    font-size: 36px;
+    line-height: 45px;
+    margin: 8px 0px;
+  }
+
+  .sectionHeadingDescription2 {
+    position: static;
+    width: 688px;
+    height: 56px;
+    left: 0px;
+    top: 53px;
+    margin: 8px 0px;
+  }
+  .featureItem {
+    float: left;
+    width: 344px;
+    height: 210px;
+    margin: 20px 0px;
+  }
+  .featureItemDescription {
+    width: 297px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .features12 {
+    padding: 48px 20px;
+    position: static;
+    width: 375px;
+    height: 1852px;
+    left: 0px;
+    top: 1468px;
+    margin: 0px 0px;
+  }
+  .features12Container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 335px;
+    height: 1248px;
+    left: 20px;
+    top: 306px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 48px 0px;
+  }
+  .sectionHeading {
+    position: static;
+    width: 335px;
+    left: calc(50% - 335px / 2);
+    top: 3%;
+    bottom: 83.9%;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 48px 0px;
+  }
+
+  .sectionHeadingDescription1 {
+    position: static;
+    width: 335px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    font-size: 36px;
+    line-height: 45px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 8px 0px;
+  }
+
+  .sectionHeadingDescription2 {
+    position: static;
+    width: 335px;
+    height: 112px;
+    left: 0px;
+    top: 98px;
+    margin: 8px 0px;
+  }
+  .featureItem {
+    width: 344px;
+    height: 210px;
+    margin: 20px 0px;
+  }
+  .featureItemDescription {
+    width: 297px;
+  }
+}

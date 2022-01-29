@@ -1,0 +1,39 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.baseContainer{
+    width: 1440px;
+    height: 100%;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+  body {
+      overflow-x: hidden;
+      width: 100%;
+  }
+
+
+@media only screen and (min-width:376px) and (max-width:768px) {
+    .baseContainer{
+        width: 768px;
+    
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .baseContainer{
+        width: 375px;
+      }
+  }
+  
